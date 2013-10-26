@@ -1,0 +1,38 @@
+=========
+linux.py
+=========
+
+
+What
+-------------
+
+linux.py is a python script to decrypt *nix machine user account password using Dictionary based attack.
+[[ a simple brute force on /etc/shadow file ]]
+
+
+Requirements
+-------------
+
+    - python 2.6+ <http://www.python.org>
+      (older version before 2.5 aren't recommended)
+
+Linux Debian/Ubuntu:
+
+    sudo aptitude install python
+    
+    
+Portability
+-------------
+
+This is developed and tested mostly on Linux, though it should support others posix systems.
+
+
+Usage
+-------------
+
+    # python linux.py -f /etc/shadow
+    Please enter the dictionary file path = <enter dictionary file path>
+
+
+
+Don't hesitate to reports bugs and submit patches, or just mail author.
